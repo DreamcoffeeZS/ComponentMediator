@@ -1,0 +1,46 @@
+{
+  "name": "ComponentMediator",
+  "version": "1.0.0",
+  "summary": "组件化之中间件",
+  "description": "ComponentMediator，这其中包含URL-Block、URL-Protocol、CTMediator三种通信方式",
+  "homepage": "https://github.com/Fengzi/ComponentMediator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Fengzi": "fengzi@micous.com"
+  },
+  "source": {
+    "git": "https://github.com/Fengzi/ComponentMediator.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ComponentMediator/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "Mediator",
+      "source_files": "ComponentMediator/Mediator/*",
+      "dependencies": {
+        "CTMediator": [
+
+        ]
+      }
+    },
+    {
+      "name": "RouterBlock",
+      "source_files": "ComponentMediator/RouterBlock/*",
+      "dependencies": {
+        "MGJRouter": [
+          "~> 0.9.0"
+        ]
+      }
+    },
+    {
+      "name": "RouterProtocol",
+      "source_files": "ComponentMediator/RouterProtocol/*"
+    }
+  ]
+}

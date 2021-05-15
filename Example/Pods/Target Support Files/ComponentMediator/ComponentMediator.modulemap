@@ -1,0 +1,6 @@
+framework module ComponentMediator {
+  umbrella header "ComponentMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}
