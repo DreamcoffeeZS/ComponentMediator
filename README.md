@@ -22,7 +22,7 @@ pod 'ComponentMediator'
 
 ## Author
 
-Fengzi, fengzi@micous.com
+DreamcoffeeZS, dreamcoffeezs@163.com
 
 ## License
 
