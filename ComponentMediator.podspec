@@ -13,11 +13,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'ComponentMediator，这其中包含URL-Block、URL-Protocol、CTMediator三种通信方式'
 
-  s.homepage         = 'https://github.com/DreamcoffeeZS/ComponentMediator'
+  s.homepage         = 'https://github.com/wuyubeichen/ComponentMediator'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dreamcoffeezs' => 'dreamcoffeezs@163.com' }
-  s.source           = { :git => 'https://github.com/dreamcoffeeZS/ComponentMediator.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wuyubeichen/ComponentMediator.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
