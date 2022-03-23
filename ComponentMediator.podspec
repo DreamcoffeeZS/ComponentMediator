@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ComponentMediator'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '组件化之中间件'
 
   s.description      = 'ComponentMediator，这其中包含URL-Block、URL-Protocol、CTMediator三种通信方式'
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'RouterBlock' do |ss|
     ss.source_files = 'ComponentMediator/Classes/RouterBlock/*'
-    ss.dependency 'MGJRouter', '~> 0.9.0'
+    ss.dependency 'MGJRouter', '~> 0.8.0'
   end
   
   s.subspec 'RouterProtocol' do |ss|
