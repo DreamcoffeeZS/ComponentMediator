@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ComponentMediator'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = '组件化之中间件'
 
   s.description      = 'ComponentMediator，这其中包含URL-Block、URL-Protocol、CTMediator三种通信方式'
